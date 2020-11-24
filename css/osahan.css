@@ -154,6 +154,9 @@ Version: 1.0
 .category-item{
     height: 100%;
 }
+.latest-card{
+    height:100%;
+}
 .single-channel-page{
     padding: 0px 0px 0px 225px;
 }
