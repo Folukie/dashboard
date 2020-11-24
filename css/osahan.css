@@ -155,7 +155,7 @@ Version: 1.0
     height: 100%;
 }
 .latest-card{
-    height:100%;
+    height:100% !important;
 }
 .single-channel-page{
     padding: 0px 0px 0px 225px;
