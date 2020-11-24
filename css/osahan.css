@@ -1384,6 +1384,11 @@ Version: 1.0
      #sidebarToggle {
          margin: 0 9px 0 0;
     }
+    .logo {
+        width: 150px;
+        height: 40px;
+        margin-left: -30px !important;
+    }
      .navbar-brand img {
          vertical-align: top;
     }
