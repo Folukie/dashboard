@@ -151,6 +151,9 @@ Version: 1.0
 .sidebar-toggled #wrapper #content-wrapper .container-fluid{
      padding: 30px 30px 30px 121px;
 }
+.category-item{
+    height: 100%;
+}
 .single-channel-page{
     padding: 0px 0px 0px 225px;
 }
