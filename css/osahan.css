@@ -29,6 +29,67 @@ Version: 1.0
 .ml-auto, .mx-auto {
     margin-left: auto!important;
 }
+.support-span{
+    color:rgb(156, 154, 154);
+    font-size: 14px;
+}
+.support-link{
+    color:rgb(167, 164, 164) !important;
+    
+}
+.ellipsis{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 350px !important; 
+}
+.support-link:hover{
+    text-decoration: underline !important;
+    color: #3727b3;
+
+}
+.support-content-body h6:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.support-content-body h6 span:hover{
+    text-decoration: none !important;
+}
+.support-see-more{
+    color: #4a88e4;
+    font-size: 13px;
+}
+.support-see-more:hover {
+    text-decoration: underline !important;
+    color:  #3e2bce;
+}
+.support-icon{
+    color:#3e2bce;
+}
+.support-content{
+    border-top: 1px solid #3e2bce;
+    margin-top: 30px;
+}
+.support-subhead{
+    border-top: 8px solid #3e2bce;
+    width:65px;
+    padding-top: 15px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.support-subhead:hover{
+    text-decoration: underline;
+   cursor: pointer;
+}
+.support-head:hover{
+   cursor: pointer;
+}
+.support-content-body{
+    border-left: 4px solid #3e2bce !important;
+    padding: 10px 5px 5px 20px;
+    box-shadow:  0 41.8px 33.4px rgba(0, 0, 0, 0.090);
+    height:100%;
+}
 .forum{
     text-align: center;
 }
@@ -1321,6 +1382,10 @@ Version: 1.0
  @media (max-width: 575.98px) {
     .top-mobile-search {
         display: block;
+    }
+    .support-content-body{
+        margin: 20px 0;
+        height:auto !important;
     }
     #wrapper #content-wrapper .container-fluid {
         padding-bottom: 15px !important;
