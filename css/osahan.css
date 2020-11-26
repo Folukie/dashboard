@@ -140,6 +140,7 @@ Version: 1.0
 }
 .ans-row{
     margin: 40px 0;
+    height:55vh ;
 
 }
 .info-add-support{
@@ -919,6 +920,9 @@ Version: 1.0
      padding: 27px 10px;
      text-align: center;
      width: 100%;
+}
+.main-title{
+    margin-top: 30px;
 }
  .main-title > h6 {
      margin: 0px 0 16px;
