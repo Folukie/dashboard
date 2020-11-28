@@ -1498,6 +1498,12 @@ Version: 1.0
         width:100% !important;
         margin-left: 0 !important;
     }
+    .forum-page-body{
+        margin:0 !important;
+    }
+    .forum-page-head-row{
+        margin-left: 0 !important;
+    }
     .support-form-body {
         margin: 0 !important;
     }
@@ -1684,6 +1690,12 @@ Version: 1.0
         width:100% !important;
         margin-left: 0 !important;
     }
+    .forum-page-body{
+        margin:0 !important;
+    }
+    .forum-page-head-row{
+        margin-left: 150px !important;
+    }
     #wrapper #content-wrapper .container-fluid {
         padding-bottom: 15px !important;
         padding-left: 15px !important;
@@ -1825,6 +1837,12 @@ Version: 1.0
         width:50% !important;
         margin-left: 250px !important;
     }
+    .forum-page-body{
+        margin:0 !important;
+    }
+    .forum-page-head-row{
+        margin-left: 250px !important;
+    }
     
     .sidebar .nav-item .nav-link {
         padding: 8px 14px !important;
@@ -1908,6 +1926,12 @@ Version: 1.0
         padding-left: 15px !important;
         padding-right: 15px !important;
         padding-top: 1rem !important;
+    }
+    .forum-page-body{
+        margin:0 50px !important;
+    }
+    .forum-page-head-row{
+        margin-left: 350px !important;
     }
     .answer-body{
         margin: 50px  !important;
@@ -1998,5 +2022,11 @@ Version: 1.0
         margin:80px 0 40px;
         width:40% !important;
         margin-left: 300px !important;
+    }
+    .forum-page-body{
+        margin:0 50px !important;
+    }
+    .forum-page-head-row{
+        margin-left: 350px !important;
     }
 }
