@@ -40,6 +40,14 @@ Version: 1.0
     color:#3e2bce;
 
 }
+.funds-p{
+    margin-bottom: 0 !important;
+}
+.funds-box{
+    margin:60px 0 30px;
+    width:25%;
+    margin-left: 550px;
+}
 .ticket-box{
     background-color: #232323;
     padding:30px 0;
@@ -180,6 +188,39 @@ Version: 1.0
 ;}
 .forum-content{
     padding:10px 0 30px;
+}
+.forum-page-header{
+    text-align: center;
+    padding-bottom: 30px !important;
+
+}
+.forum-page-head{
+    border-bottom: none !important;
+}
+.forum-page-head-row{
+    margin-left: 420px ;
+}
+.forum-page-number{
+    text-align: center;
+}
+.forum-page-content{
+    text-align: left !important;
+}
+.forum-page-topic{
+    border-bottom: 1px solid  #4d4c4c;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.forum-page-body{
+    margin:0 150px !important;
+}
+.forum-page-content-head{
+    font-weight: 700;
+    padding:0 5px;
+
+}
+.forum-page-info{
+    padding:0 20px;
 }
 .switch {
     position: relative;
@@ -771,11 +812,11 @@ Version: 1.0
      border-color: transparent !important;
      background: #3e2bce;
     /* Old browsers */
-     background: -moz-linear-gradient(-45deg, #3e2bce 0%, #e41e1d 100%);
+     background: -moz-linear-gradient(135deg, #2dd3aa 0%,#3e2bce 100%);
     /* FF3.6-15 */
-     background: -webkit-linear-gradient(-45deg, #3e2bce 0%,#e41e1d 100%);
+     background: -webkit-linear-gradient(135deg, #2dd3aa 0%,#3e2bce 100%);
     /* Chrome10-25,Safari5.1-6 */
-     background: linear-gradient(135deg, #3e2bce 0%,#e41e1d 100%);
+     background: linear-gradient(135deg, #2dd3aa 0%,#3e2bce 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3e2bce', endColorstr='#e41e1d',GradientType=1 );
     /* IE6-9 fallback on horizontal gradient */
@@ -1452,6 +1493,11 @@ Version: 1.0
 /* Mobile Media */
 /* Extra small devices (portrait phones, less than 576px) */
  @media (max-width: 575.98px) {
+    .funds-box{
+        margin:60px 0 30px;
+        width:100% !important;
+        margin-left: 0 !important;
+    }
     .support-form-body {
         margin: 0 !important;
     }
@@ -1634,6 +1680,10 @@ Version: 1.0
     .top-mobile-search {
         display: block;
     }
+    .funds-box{
+        width:100% !important;
+        margin-left: 0 !important;
+    }
     #wrapper #content-wrapper .container-fluid {
         padding-bottom: 15px !important;
         padding-left: 15px !important;
@@ -1769,6 +1819,11 @@ Version: 1.0
         padding-left: 15px !important;
         padding-right: 15px !important;
         padding-top: 1rem !important;
+    }
+    .funds-box{
+        margin:80px 0 40px;
+        width:50% !important;
+        margin-left: 250px !important;
     }
     
     .sidebar .nav-item .nav-link {
@@ -1927,11 +1982,21 @@ Version: 1.0
     .text-right{
         margin-left: 130px;
     }
+    .funds-box{
+        margin:80px 0 40px;
+        width:50% !important;
+        margin-left: 250px !important;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
  @media (min-width: 1200px)and (max-width: 1300px) {
     .support-form-body {
         margin: 0 140px !important;
+    }
+    .funds-box{
+        margin:80px 0 40px;
+        width:40% !important;
+        margin-left: 300px !important;
     }
 }
