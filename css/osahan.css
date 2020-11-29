@@ -187,7 +187,7 @@ Version: 1.0
     color:#3e2bce
 ;}
 .forum-content{
-    padding:10px 0 30px;
+    padding:0 0 30px;
 }
 .forum-page-header{
     text-align: center;
@@ -208,11 +208,28 @@ Version: 1.0
 }
 .forum-page-topic{
     border-bottom: 1px solid  #4d4c4c;
-    padding-bottom: 10px;
+    padding: 15px 0;
     margin-bottom: 20px;
+    background-color: #00000026;
+   
+}
+.comment-box{
+    border:1px solid #4d4c4c;
+    padding:0 0 10px;
+    margin:20px 0;
+    border-radius: 5px;
+}
+.comment-box h6 {
+    padding:0 10px;
+}
+.comment-box p {
+    padding:0 10px;
+}
+.comment-topic{
+    border: none !important;
 }
 .forum-page-body{
-    margin:0 150px !important;
+    margin:0 200px !important;
 }
 .forum-page-content-head{
     font-weight: 700;
@@ -1928,7 +1945,7 @@ Version: 1.0
         padding-top: 1rem !important;
     }
     .forum-page-body{
-        margin:0 50px !important;
+        margin:0 80px !important;
     }
     .forum-page-head-row{
         margin-left: 350px !important;
@@ -2024,7 +2041,7 @@ Version: 1.0
         margin-left: 300px !important;
     }
     .forum-page-body{
-        margin:0 50px !important;
+        margin:0 100px !important;
     }
     .forum-page-head-row{
         margin-left: 350px !important;
