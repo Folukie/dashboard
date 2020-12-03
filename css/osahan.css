@@ -26,7 +26,7 @@ Version: 1.0
     display: block !important;
 }
 .forum-topic-page-head{
-    margin-left: 20px !important;
+    margin-left: 0 !important;
 }
 .add-support{
     display:flex;
