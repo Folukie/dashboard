@@ -25,6 +25,9 @@ Version: 1.0
 .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
     display: block !important;
 }
+.forum-topic-page-head{
+    margin-left: 20px !important;
+}
 .add-support{
     display:flex;
     justify-content: space-around;
