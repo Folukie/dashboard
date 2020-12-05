@@ -70,7 +70,7 @@ Version: 1.0
 
 }
 .second-row-content a:hover{
-    color:#2dd3aa;
+    color:#2dd3aa !important;
     
 }
 .forum-signup{
