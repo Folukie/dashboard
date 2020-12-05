@@ -56,6 +56,19 @@ Version: 1.0
     margin-top: 10px !important;
     margin-bottom: 5px !important;
 }
+.forum-signup{
+   background-color: #2dd3aa;
+    color:white; 
+    font-size: 14px;
+}
+.forum-strong{
+    color: #3e2bce !important;
+
+}
+.forum-signup:hover{
+    color: #2dd3aa !important;
+    background-color: transparent;
+}
 .pp{
     height: 35px !important;
 }
