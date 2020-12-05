@@ -56,6 +56,22 @@ Version: 1.0
     margin-top: 10px !important;
     margin-bottom: 5px !important;
 }
+.second-row-content{
+    margin-left: 320px;
+    padding-top: 25px;
+    height:70px
+}
+.second-row-content a{
+    color:rgb(201, 201, 201);
+    font-size: 13.5px;
+    cursor: pointer;
+    transition: all .5s;
+
+}
+.second-row-content a:hover{
+    color:#2dd3aa;
+    
+}
 .forum-signup{
    background-color: #2dd3aa;
     color:white; 
@@ -1576,6 +1592,11 @@ Version: 1.0
     }
     .forum-page-head-row{
         margin-left: 0 !important;
+    }
+    .second-row-content{
+        margin-left: 10px;
+        padding-top: 15px;
+        height:80px
     }
     .support-form-body {
         margin: 0 !important;
