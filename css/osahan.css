@@ -57,9 +57,9 @@ Version: 1.0
     margin-bottom: 5px !important;
 }
 .second-row-content{
-    margin-left: 320px;
-    padding-top: 25px;
-    height:70px
+    margin-left: 320px !important;
+    padding-top: 25px !important;
+    height:70px !important;
 }
 .second-row-content a{
     color:rgb(201, 201, 201);
@@ -1594,9 +1594,9 @@ Version: 1.0
         margin-left: 0 !important;
     }
     .second-row-content{
-        margin-left: 10px;
-        padding-top: 15px;
-        height:80px
+        margin-left: 10px !important;
+        padding-top: 15px !important;
+        height:80px !important;
     }
     .support-form-body {
         margin: 0 !important;
