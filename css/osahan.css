@@ -73,6 +73,10 @@ Version: 1.0
     color:#2dd3aa !important;
     
 }
+.sr-link:hover{
+    color:#2dd3aa !important;
+
+}
 .forum-signup{
    background-color: #2dd3aa;
     color:white; 
