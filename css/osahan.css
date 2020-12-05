@@ -59,11 +59,11 @@ Version: 1.0
 .second-row-content{
     margin-left: 320px !important;
     padding-top: 25px !important;
-    height:70px !important;
+    height: 70px !important;
 }
 .second-row-content a{
-    color:rgb(201, 201, 201);
-    font-size: 13.5px;
+    color:rgb(201, 201, 201) !important;
+    font-size: 13.5px !important;
     cursor: pointer;
     transition: all .5s;
 
