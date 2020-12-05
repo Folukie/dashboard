@@ -52,7 +52,7 @@ Version: 1.0
     text-align: center !important;
 }
 .forum-email-row{
-    margin: 10px 0 5px 350px;
+    margin: 10px 0 5px 350px !important;
 }
 .pp{
     height: 35px !important;
