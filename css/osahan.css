@@ -49,6 +49,16 @@ Version: 1.0
 }
 .forum-topic-page-head{
     margin-left: 0 !important;
+    text-align: center !important;
+}
+.forum-email-row{
+    margin: 10px 0 5px 350px;
+}
+.pp{
+    height: 35px !important;
+}
+.forum-emailbox{
+    height: 35px !important;
 }
 .add-support{
     display:flex;
@@ -1543,6 +1553,9 @@ Version: 1.0
         width:100% !important;
         margin-left: 0 !important;
     }
+    .forum-email-row{
+        margin-left: 50px !important;
+    }
     .forum-page-body{
         margin:0 !important;
     }
@@ -1740,6 +1753,9 @@ Version: 1.0
     }
     .forum-page-head-row{
         margin-left: 150px !important;
+    }
+    .forum-email-row{
+        margin-left: 50px !important;
     }
     #wrapper #content-wrapper .container-fluid {
         padding-bottom: 15px !important;
