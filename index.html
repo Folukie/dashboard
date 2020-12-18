@@ -19,6 +19,126 @@
       <link rel="stylesheet" href="vendor/owl-carousel/owl.carousel.css">
       <link rel="stylesheet" href="vendor/owl-carousel/owl.theme.css">
    </head>
+   <style>
+
+body {
+  background-color: #FEF5DF;
+}
+
+.container {
+  width: 300px;
+  height: 400px;
+  
+  position: absolute;
+  top:0; right: 0; left: 0; bottom: 0;
+  margin: auto;
+  
+  background: url("https://i.ytimg.com/vi/4kkKRGrPRAQ/mqdefault.jpg");
+  background-color: black;
+  background-size: cover !important;
+  background-position: center;
+  cursor: pointer;
+  
+  -webkit-box-shadow: 0 0 5px #000;
+        box-shadow: 0 0 5px #000;
+  }
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 2fr 2fr 1fr;
+  
+  background: rgba(77, 77, 77, .9);
+  color: #FEF5DF;
+  opacity: 0;
+  transition: all 0.5s;
+  
+  font-family: 'Playfair Display', serif;
+}
+
+
+.items {
+  padding-left: 20px;
+  letter-spacing: 3px;
+}
+
+.head {
+  font-size: 30px;
+  line-height: 40px;
+  
+  transform: translateY(40px);
+  transition: all 0.7s;
+ 
+}
+
+.head  hr {
+   display: block;
+   width: 0;
+   border: none;
+   border-bottom: solid 2px  #FEF5DF; 
+   position: absolute;
+   bottom: -17px; left:20px;
+   transition: all .5s;
+
+}
+.head .price {
+  font-size: 22px;
+  line-height: 10px;
+  font-weight: bold;  
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.7s;
+}
+.head .old {
+    text-decoration: line-through;
+    color: lighten(rgb(77, 77, 77),40%);
+  }
+
+.cart {
+  font-size: 12px;
+  opacity: 0;
+  letter-spacing: 1px;
+  font-family: 'Lato', sans-serif;
+  transform: translateY(40px);
+  transition: all 0.7s;
+ 
+}
+.cart  i {
+    font-size: 16px;
+  }
+.cart  span {
+    margin-left: 10px;
+  }
+
+.container:hover .overlay {
+  opacity: 1;
+  
+}
+.container:hover .head {
+    transform: translateY(0px);
+  }
+  
+  .container:hover hr {
+    width: 75px;
+    transition-delay: 0.4s;
+  }
+  
+  .container:hover .price {
+    transform: translateY(0px);
+    transition-delay: 0.3s;
+    opacity: 1;
+  }
+  
+  .container:hover .cart {
+    transform: translateY(0px);
+    transition-delay: 0.6s;
+    opacity: 1;
+  }
+
+   </style>
    <body id="page-top">
       <nav class="navbar navbar-expand navbar-light bg-white static-top osahan-nav sticky-top">
          &nbsp;&nbsp; 
@@ -199,78 +319,85 @@
                            <h6>Latest Tasks</h6>
                         </div>
                      </div>
-                     <div class="col-xl-3 col-sm-6 mb-3">
-                        <div class="video-card latest-card">
-                            <div class="video-card-image">
-                                <a href="/welian/youtube/tasks/single/7"><img class="img-fluid" src="https://i.ytimg.com/vi/4kkKRGrPRAQ/mqdefault.jpg" alt=""></a>
-                            </div>
-                            <div class="video-card-body">
-                                <div class="video-title">
-                                    <a href="/welian/youtube/tasks/single/7">Olamide - Triumphant (Official Video) ft. Bella Shmurda</a>
-                                    <div class="pt-2">
-                                        Earning on video: $5
-                                    </div> 
-                                    <div class="pt-2">
-                                        Task Type: View
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                     <div class="col-xl-3 col-sm-6" style="margin-bottom:240px; margin-top:220px;">
+                        <div class="container">
+                           <div class="overlay">
+                             <div class = "items"></div>
+                             <div class = "items head">
+                              <a href="/welian/youtube/tasks/single/7" style="color:white;">Olamide - Triumphant (Official Video) ft. Bella Shmurda</a>
+
+                               <hr>
+                             </div>
+                             <div class = "items price mt-2">
+                               <p class="old">Earning on video: $5</p>
+                             </div>
+                             <div class="items cart">
+                               <i class="fa fa-tasks"></i>
+                               <span>Task Type: View</span>
+                           </div>
+                         </div>
+                         </div>
                      </div>
-                     <div class="col-xl-3 col-sm-6 mb-3">
-                        <div class="video-card latest-card">
-                            <div class="video-card-image">
-                                <a href="/welian/youtube/tasks/single/8"><img class="img-fluid" src="https://i.ytimg.com/vi/JtEv_3Rwn1o/mqdefault.jpg" alt=""></a>
-                            </div>
-                            <div class="video-card-body">
-                                <div class="video-title">
-                                    <a href="/welian/youtube/tasks/single/8">Davido - Holy Ground (Official Audio) ft. Nicki Minaj</a>
-                                    <div class="pt-2">
-                                        Earning on video: $5
-                                    </div> 
-                                    <div class="pt-2">
-                                        Task Type: View
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                     <div class="col-xl-3 col-sm-6" style="margin-bottom:240px; margin-top:220px;">
+                        <div class="container">
+                           <div class="overlay">
+                             <div class = "items"></div>
+                             <div class = "items head">
+                              <a href="/welian/youtube/tasks/single/7" style="color:white;">Olamide - Triumphant (Official Video) ft. Bella Shmurda</a>
+
+                               <hr>
+                             </div>
+                             <div class = "items price mt-2">
+                               <p class="old">Earning on video: $5</p>
+                             </div>
+                             <div class="items cart">
+                               <i class="fa fa-tasks"></i>
+                               <span>Task Type: View</span>
+                           </div>
+                         </div>
+                         </div>
                      </div>
-                     <div class="col-xl-3 col-sm-6 mb-3">
-                        <div class="video-card latest-card">
-                            <div class="video-card-image">
-                                <a href="/welian/youtube/tasks/single/18"><img class="img-fluid" src="https://i.ytimg.com/vi/Y_Y3F2wXOxs/mqdefault.jpg" alt=""></a>
-                            </div>
-                            <div class="video-card-body">
-                                <div class="video-title">
-                                    <a href="/welian/youtube/tasks/single/18">Omah Lay - Godly (Official Audio)</a>
-                                    <div class="pt-2">
-                                        Earning on video: $5
-                                    </div> 
-                                    <div class="pt-2">
-                                        Task Type: View
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                     <div class="col-xl-3 col-sm-6" style="margin-bottom:240px; margin-top:220px;">
+                        <div class="container">
+                           <div class="overlay">
+                             <div class = "items"></div>
+                             <div class = "items head">
+                              <a href="/welian/youtube/tasks/single/7" style="color:white;">Olamide - Triumphant (Official Video) ft. Bella Shmurda</a>
+
+                               <hr>
+                             </div>
+                             <div class = "items price mt-2">
+                               <p class="old">Earning on video: $5</p>
+                             </div>
+                             <div class="items cart">
+                               <i class="fa fa-tasks"></i>
+                               <span>Task Type: View</span>
+                           </div>
+                         </div>
+                         </div>
                      </div>
-                     <div class="col-xl-3 col-sm-6 mb-3">
-                        <div class="video-card latest-card">
-                            <div class="video-card-image">
-                                <a href="/welian/youtube/tasks/single/18"><img class="img-fluid" src="https://i.ytimg.com/vi/Y_Y3F2wXOxs/mqdefault.jpg" alt=""></a>
-                            </div>
-                            <div class="video-card-body">
-                                <div class="video-title">
-                                    <a href="/welian/youtube/tasks/single/18">Omah Lay - Godly (Official Audio)</a>
-                                    <div class="pt-2">
-                                        Earning on video: $5
-                                    </div> 
-                                    <div class="pt-2">
-                                        Task Type: View
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                     <div class="col-xl-3 col-sm-6" style="margin-bottom:240px; margin-top:220px;">
+                        <div class="container">
+                           <div class="overlay">
+                             <div class = "items"></div>
+                             <div class = "items head">
+                              <a href="/welian/youtube/tasks/single/7" style="color:white;">Olamide - Triumphant (Official Video) ft. Bella Shmurda</a>
+
+                               <hr>
+                             </div>
+                             <div class = "items price mt-2">
+                               <p class="old">Earning on video: $5</p>
+                             </div>
+                             <div class="items cart">
+                               <i class="fa fa-tasks"></i>
+                               <span>Task Type: View</span>
+                           </div>
+                         </div>
+                         </div>
                      </div>
+                     
+                    
+                     
                     
                     </div>   
                </div>

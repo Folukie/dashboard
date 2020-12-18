@@ -25,6 +25,7 @@ Version: 1.0
 .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
     display: block !important;
 }
+
 .error-page{
     margin-top: 200px;
 }
